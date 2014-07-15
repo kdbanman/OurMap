@@ -1,5 +1,4 @@
-OurMap
-======
+# Our Map
 
 Tracking system for Our Book
 
@@ -7,6 +6,22 @@ Tracking system for Our Book
 
 Each book is uniquely identified by a serial number.
 Each serial number is a set of fields separated by periods.
+
+### Example
+
+    BD.01-02-14.DUNCANIFORGOT.0873
+    ^  ^        ^             ^
+    |  |        |             |
+    |  |        |             | Book number 0873
+    |  |        |
+    |  |        | Book made by OMGDUNCANIFORGOT
+    |  |
+    |  | Book made on February 1, 2014
+    |
+    | Book version is Declaration of Human Rights
+
+### Fields
+
 The fields may be written in any order, so long as each field obeys these format rules and examples:
 
 - #### Book Version
@@ -39,15 +54,4 @@ The fields may be written in any order, so long as each field obeys these format
 
     - `456` for book number 456 *DUNCAN WILL THERE EVER BE DUPLICATES OF THIS NUMBER HOW DOES THIS WORK IS THIS NUMBER 456 OF THAT VERSION OR THAT MAKER OR OF ALL TIME OMG HELP*
     
-### Full Serial Example
 
-    BD.01-02-14.DUNCANIFORGOT.0873
-    ^  ^        ^             ^
-    |  |        |             |
-    |  |        |             | Book number 0873
-    |  |        |
-    |  |        | Book made by OMGDUNCANIFORGOT
-    |  |
-    |  | Book made on February 1, 2014
-    |
-    | Book version is Declaration of Human Rights

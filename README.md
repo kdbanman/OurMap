@@ -9,21 +9,45 @@ Each book is uniquely identified by a serial number.
 Each serial number is a set of fields separated by periods.
 The fields may be written in any order, so long as each field obeys these format rules and examples:
 
-- ### Book Version
+- #### Book Version
 
-  #### `B<letters or numbers>`
+  #### `B<letters or digits>`
 
     - `BD` for a Declaration of Human Rights version
     - `BIF` for a Rudyard Kipling's If version
     - `BP` for a *DUNCAN I FORGOT WHAT THIS IS*
     - `BQ` for a *DUNCAN I DON'T REMEMBER THIS EITHER*
 
-- **Date of Creation**
+- #### Book's Date of Creation
 
-  **`<2 digits for day>-<2 digits for month>-<4 digits for year>`**
+  #### `<2 digits for day>-<2 digits for month>-<4 digits for year>`
 
-  `31-12-2014` for December 31, 2014
+    - `31-12-2014` for December 31, 2014
 
-Examples:
+- #### Book Maker ID
 
-    BD.01-02-14.
+  #### `<some digits><some letters>`
+
+    - `1DI` for *DUNCAN WHAT IS THIS I DON'T EVEN*
+    - `2XX` for *DUNCAN WHAT IS THIS I DON'T EVEN*
+    - `3XX` for *DUNCAN WHAT IS THIS I DON'T EVEN*
+    - `4XX` for *DUNCAN WHAT IS THIS I DON'T EVEN*
+
+- #### Book Number
+
+  #### `<some digits>`
+
+    - `456` for book number 456 *DUNCAN WILL THERE EVER BE DUPLICATES OF THIS NUMBER HOW DOES THIS WORK IS THIS NUMBER 456 OF THAT VERSION OR THAT MAKER OR OF ALL TIME OMG HELP*
+    
+### Full Serial Example
+
+    BD.01-02-14.DUNCANIFORGOT.0873
+    ^  ^        ^             ^
+    |  |        |             |
+    |  |        |             | Book number 0873
+    |  |        |
+    |  |        | Book made by OMGDUNCANIFORGOT
+    |  |
+    |  | Book made on February 1, 2014
+    |
+    | Book version is Declaration of Human Rights

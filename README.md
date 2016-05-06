@@ -1,6 +1,6 @@
 # Our Map
 
-Tracking system for Our Book
+Forgotten tracking system serial number spect for Our Book, by Duncan Ireland.
 
 ## Serial Numbers
 
@@ -14,7 +14,7 @@ Each serial number is a set of fields separated by periods.
     |  |        |             |
     |  |        |             | Book number 0873
     |  |        |
-    |  |        | Book made by OMGDUNCANIFORGOT
+    |  |        | Book made by DUNCANIFORGOT
     |  |
     |  | Book made on February 1, 2014
     |
